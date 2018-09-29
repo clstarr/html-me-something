@@ -1,8 +1,17 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
 h1 {
     font-family: 'Pacifico', cursive; 
     text-align: center;
     font-size: 65px;
-    background-color: #ffccff
+    background-color: #ffccff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* Added by Victor */
@@ -24,10 +33,19 @@ h1 {
     height: 33%;
 }
 
-h2 {
-    font-family: 'Open Sans', sans-serif;
+h2, p {
+    font-family: consolas, 'Open Sans', sans-serif;
 }
 
 main h2, main figure {
     text-align: center;
 }
+
+#kuwait, #qatar, #germany, #london, #japan {
+    background-color: #e5ffff
+}
+
+.kuwait, .qatar, .germany, .london, .japan {
+    background-color: #ffffe5
+}
+
